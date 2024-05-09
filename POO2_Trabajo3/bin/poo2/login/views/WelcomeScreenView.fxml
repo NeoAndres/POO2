@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane style="-fx-background-color: #ECF0F1; -fx-padding: 10;" 
+xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" 
+fx:controller="poo2.login.controllers.WelcomeScreenController">
+
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Página de Inicio">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Text>
+      <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-padding: 20;" GridPane.rowIndex="2">
+         <children>
+            <Circle fill="DODGERBLUE" radius="49.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="79.0" layoutY="79.0" radius="49.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="177.0" layoutY="79.0" radius="49.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </HBox>
+      <HBox prefHeight="0.0" prefWidth="334.0" style="-fx-padding: 10;" GridPane.rowIndex="1">
+         <children>
+            <Label prefHeight="17.0" prefWidth="66.0" text="Nombre:" />
+            <Text fx:id="nombreCompletoField" strokeType="OUTSIDE" strokeWidth="0.0" />
+         </children>
+      </HBox>
+   </children>
+</GridPane>
